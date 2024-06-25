@@ -1,0 +1,48 @@
+{
+    "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.6/MicrosoftTeams.schema.json",
+    "manifestVersion": "1.6",
+    "version": "1.0.0",
+    "id": "c677e540-617b-4279-a8b6-c35abdd144e1",
+    "packageName": "com.yourcompany.passwordbot",
+    "developer": {
+        "name": "Your Company",
+        "websiteUrl": "https://yourcompany.com",
+        "privacyUrl": "https://yourcompany.com/privacy",
+        "termsOfUseUrl": "https://yourcompany.com/terms"
+    },
+    "description": {
+        "short": "Password retrieval bot",
+        "full": "A bot that retrieves passwords for different environments."
+    },
+    "icons": {
+        "color": "color.png",
+        "outline": "outline.png"
+    },
+    "bots": [
+        {
+            "botId": "your-bot-id",
+            "scopes": [
+                "personal"
+            ],
+            "commandLists": [
+                {
+                    "scopes": ["personal"],
+                    "commands": [
+                        {
+                            "title": "Get Password",
+                            "description": "Retrieves the password for the specified environment."
+                        }
+                    ]
+                }
+            ]
+        }
+    ],
+    "permissions": [
+        "identity",
+        "messageTeamMembers"
+    ],
+    "validDomains": [
+        "your-bot-domain.azurewebsites.net"
+    ]
+ }
+ 

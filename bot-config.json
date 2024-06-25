@@ -1,0 +1,14 @@
+const { ClientSecretCredential } = require("@azure/identity");
+
+// Your Azure AD application (client) ID
+const clientId = "c677e540-617b-4279-a8b6-c35abdd144e1";
+
+// Your Azure AD tenant ID
+const tenantId = "95934888-64c3-4243-af76-7ce88ac34198";
+
+// Your client secret
+const clientSecret = "38dd26ca-a389-4a15-8d7f-8b619b4748f2";
+
+const credential = new ClientSecretCredential(tenantId, clientId, clientSecret);
+
+// Use the credential to authenticate requests
