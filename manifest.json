@@ -3,16 +3,16 @@
     "manifestVersion": "1.6",
     "version": "1.0.0",
     "id": "c677e540-617b-4279-a8b6-c35abdd144e1",
-    "packageName": "com.yourcompany.passwordbot",
+    "packageName": "com.meletis.passwordbot",
     "developer": {
-        "name": "Your Company",
+        "name": "meletis",
         "websiteUrl": "https://yourcompany.com",
         "privacyUrl": "https://yourcompany.com/privacy",
         "termsOfUseUrl": "https://yourcompany.com/terms"
     },
     "description": {
         "short": "Password retrieval bot",
-        "full": "A bot that retrieves passwords for different environments."
+        "full": "A bot that retrieves passwords fornp different environments."
     },
     "icons": {
         "color": "color.png",
